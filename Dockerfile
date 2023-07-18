@@ -5,7 +5,7 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Clone the repository from GitHub
-RUN git clone git@github.com:Kabanosk/whisper-website.git .
+RUN git clone https://github.com/hotmoon6/whisper-website.git .
 
 # Create a virtual environment named "venv"
 RUN python3 -m venv venv
